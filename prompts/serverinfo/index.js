@@ -19,6 +19,6 @@ module.exports.execute = (client, message, nt) => {
     '**' + nt.i('afkTimeout', nt.language) + '** ' + server.afkTimeout +
     '\n**' + nt.i('afkChannel', nt.language) + '** ' + `<#${server.afkChannelID}>` +
     '\n**' + nt.i('verificationLevel', nt.language) + '** ' + server.verificationLevel +
-    '\n**' + nt.i('explicitContentFilter', nt.language) + '** ' + server.explicitContentFilter, true)
+    '\n**' + nt.i('ExplicitContentFilter', nt.language) + '** ' + server.explicitContentFilter, true)
   message.channel.send({embed})
 }
