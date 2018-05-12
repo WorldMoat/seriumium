@@ -9,7 +9,7 @@ const _prompts = require('./prompts')
 
 const client = new Discord.Client({autoReconnect: true})
 const endpoints = {
-  prefix: '.', // NOTE: new RegExp('^<@!?Client ID>')
+  prefix: ';', // NOTE: new RegExp('^<@!?Client ID>')
   Discord: process.env.Discord // NOTE: 'Client Token'
 }
 const prompts = {
